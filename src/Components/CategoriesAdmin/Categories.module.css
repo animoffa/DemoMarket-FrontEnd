@@ -1,0 +1,19 @@
+.CategoriesMain {
+    background-color: #202020;
+    padding:60px 40px;
+    width:92%;
+}
+.title{
+    color: #eeeae2;
+    font-weight:bold;
+}
+.Categories{
+    margin-top:40px;
+
+}
+@media (max-width:1000px){
+    .CategoriesMain{
+        padding:0;
+        width:100%;
+    }
+}

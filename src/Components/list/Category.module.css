@@ -1,0 +1,22 @@
+.categoryMain{
+    display: flex;
+    justify-content: space-around;
+    background-color:#2e2d2d;
+    height:45px;
+    align-items: center;
+    margin-bottom:2px;
+}
+.categoryMain:first-child{
+    color: #eeeae2;
+    background-color:#151515;
+    margin-bottom: 6px;
+    border-radius: 1px;
+}
+.categoryMain  img{
+    opacity: 0.7;
+}
+@media (max-width:500px){
+    .count{
+        display:none;
+    }
+}
