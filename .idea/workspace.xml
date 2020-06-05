@@ -2,13 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b220a05-9440-492d-9021-77fc116565f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/admin/Components/CategoriesAdmin/Categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/Components/Products/Products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/Components/list/Category.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CategoriesAdmin/Categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CategoriesAdmin/Categories.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/CategoriesAdmin/Categories.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ChangeCategory/ChangeCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/ChangeCategory/ChangeCategory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ChangeProduct/ChangeProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/ChangeProduct/ChangeProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ChangeProduct/ChangeProduct.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/ChangeProduct/ChangeProduct.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Header/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Products/Products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Products/Products.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Products/Products.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/SidebarItem/sidebarItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Sidebar/SidebarItem/sidebarItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/SidebarItem/sidebarItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Sidebar/SidebarItem/sidebarItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Sidebar/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Sidebar/sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/list/Category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/list/Category.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/list/Category.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/logoPic/logoPic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/logoPic/logoPic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/logoPic/logoPic.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/logoPic/logoPic.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-клавиатура-64.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-клавиатура-64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-корзина-48.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-корзина-48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-меню-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-меню-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-поиск-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-поиск-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-пользователь-без-половых-признаков-64.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-пользователь-без-половых-признаков-64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-редактировать-26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-редактировать-26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-телефон-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-телефон-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-удалить-26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-удалить-26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/keyboard2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/keyboard2.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,17 +61,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../removeitlater" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\animo\OneDrive\Рабочий стол\React\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\holy-key\src\admin" />
       <recent name="C:\holy-key\src\Components" />
       <recent name="C:\holy-key\src\Components\Sidebar\SidebarItem" />
       <recent name="C:\holy-key\src\Components\Header" />
@@ -97,7 +129,18 @@
       <workItem from="1590248513699" duration="7045000" />
       <workItem from="1590256485455" duration="7954000" />
       <workItem from="1590316024535" duration="9144000" />
-      <workItem from="1590325929483" duration="2212000" />
+      <workItem from="1590325929483" duration="3059000" />
+      <workItem from="1590419877986" duration="3958000" />
+      <workItem from="1590491397106" duration="7392000" />
+      <workItem from="1590500326015" duration="711000" />
+      <workItem from="1590594961765" duration="64000" />
+      <workItem from="1590828710651" duration="12162000" />
+      <workItem from="1590924105355" duration="13031000" />
+      <workItem from="1590999622532" duration="23409000" />
+      <workItem from="1591115637451" duration="3480000" />
+      <workItem from="1591268107731" duration="5310000" />
+      <workItem from="1591285206326" duration="9312000" />
+      <workItem from="1591359564041" duration="8559000" />
     </task>
     <servers />
   </component>

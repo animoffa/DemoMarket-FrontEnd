@@ -16,7 +16,6 @@ let Header = () => {
                         className={headerCss.phoneNumberPinkColor}>(000)</span>00-00-00</span>
                 </div>
                 <nav className={headerCss.HeaderNavigation}>
-                    <img src={subMenu} width={"37px"} alt={'menu'} className={headerCss.subMenu}/>
                     <div className={headerCss.HeaderLi}>Главная</div>
                     <div className={headerCss.HeaderLi}>О компании</div>
                     <div className={headerCss.HeaderLi}>Контакты</div>

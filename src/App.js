@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
- import Header from'./Components/Header/header';
- import Sidebar from'./Components/Sidebar/sidebar';
-import Categories from "./Components/CategoriesAdmin/Categories";
-import ChangeCategory from "./Components/ChangeCategory/ChangeCategory";
-import ChangeProduct from "./Components/ChangeProduct/ChangeProduct";
-import LogoPic from "./Components/logoPic/logoPic"
+ import Header from './admin/Components/Header/header';
+ import Sidebar from './admin/Components/Sidebar/sidebar';
+import LogoPic from "./admin/Components/logoPic/logoPic"
 import {BrowserRouter, Route, Switch} from "react-router-dom"
-import Products from "./Components/Products/Products";
+import CategoriesContainer from "./admin/Components/CategoriesAdmin/CategoriesContainer";
+import ProductsContainer from "./admin/Components/Products/ProductsContainer";
+import UsersContainer from "./admin/Components/Users/UsersContainer";
+import OrdersContainer from "./admin/Components/Orders/OrdersContainer";
+import ChangeCategoriesContainer from "./admin/Components/ChangeCategory/ChangeCategoryContainer"
+import ChangeProductContainer from "./admin/Components/ChangeProduct/ChangeProductContainer";
 function App() {
   return (
       <BrowserRouter>
@@ -18,10 +20,12 @@ function App() {
       <Sidebar />
           <div className="main__content">
               <Switch>
-                  <Route path='/products' component={Products}/>
-                  <Route path='/categories' component={Categories}/>
-                  <Route path="/changecategory" render={() => <ChangeCategory CategoryName={"Механические"} CategoryDescription={"Удобны для игр и в повседневном применении"}/>}/>
-                  <Route path="/" render={() => <ChangeProduct ProductName={"Клавиатура"}/>}/>
+                  <Route exact path={'/users'} component={UsersContainer}/>
+                  <Route path='/orders' component={OrdersContainer}/>
+                  <Route path='/products' component={ProductsContainer}/>
+                  <Route path="/changecategory/:CategoryID?"  render={() => <ChangeCategoriesContainer />}/>
+                  <Route path="/changeproduct/:ProductID?" render={()=><ChangeProductContainer/>}/>
+                  <Route path='/' component={CategoriesContainer}/>
               </Switch>
           </div>
       </div>

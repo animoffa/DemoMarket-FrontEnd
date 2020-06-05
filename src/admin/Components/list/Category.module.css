@@ -2,9 +2,13 @@
     display: flex;
     justify-content: space-around;
     background-color:#2e2d2d;
-    height:45px;
+    height:85px;
     align-items: center;
     margin-bottom:2px;
+}
+.categoryMain *{
+    color: #eeeae2;
+
 }
 .categoryMain:first-child{
     color: #eeeae2;
@@ -15,7 +19,14 @@
 .categoryMain  img{
     opacity: 0.7;
 }
-@media (max-width:500px){
+.width{
+    width:200px;
+    height:20px;
+}
+.count{
+    width:200px;
+}
+@media (max-width:720px){
     .count{
         display:none;
     }

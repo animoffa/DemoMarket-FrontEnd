@@ -1,10 +1,16 @@
 import {applyMiddleware, combineReducers, compose, createStore} from "redux";
 import thunkMiddleware from "redux-thunk";
-import AdminReducer from "./AdminReducer";
+import CategoriesReducer from "./CategoriesReducer";
+import ProductsReducer from "./ProductsReducer";
+import UsersReducer from "./UsersReducer";
+import OrdersReducer from "./OrdersReducer";
 
 
 let reducers = combineReducers({
-    DialogsPage: null
+    Categories:CategoriesReducer,
+    Products:ProductsReducer,
+    Users:UsersReducer,
+    Orders:OrdersReducer,
 });
 
 

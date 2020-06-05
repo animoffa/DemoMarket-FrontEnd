@@ -26,38 +26,18 @@
 .subMenu {
     display: none;
 }
-
+.HeaderLi{
+    display: none;
+}
 @media (max-width: 950px) {
-    .HeaderphoneNumber {
+    .HeaderphoneNumber * {
         display: none;
     }
 
     .HeaderNavigation {
         margin-left: 10px;
     }
-}
-
-@media (max-width: 750px) {
-    .HeaderNavigation:hover .HeaderLi{
-        display: initial;
-height:40px;
-    }
-    .HeaderLi:hover{
-        width:120%;
-        background-color:#282c34;
-    }
-    .HeaderNavigation:hover{
-        display:flex;
-        flex-direction: column;
-    }
-    .HeaderNavigation > div {
-        display: none;
-    }
-
-    .subMenu {
-        display: flex;
-    }
-    .HeaderRightSide{
-        align-self: start;
+    .HeaderphoneNumber img{
+display:initial;
     }
 }

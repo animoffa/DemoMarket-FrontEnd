@@ -1,6 +1,6 @@
-.CategoriesMain{
+.CategoriesMain {
     background-color: #202020;
-    padding:60px 0;
+    padding: 60px 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,41 +9,50 @@
     align-content: center;
 }
 
-.title{
+.title {
     color: #eeeae2;
 }
-.Form{
+
+.Form {
     display: flex;
     justify-content: center;
 
 }
-.FormTitles{
+
+.FormTitles {
     color: #eeeae2;
     font-weight: bold;
     text-align: right;
 }
+
 .FormTitles * {
-margin: 52px;
-    font-size:17px;
-}
-.CheckBoxes{
-    transform:scale(1.7);
-    opacity:0.9;
-    cursor:pointer;
-    margin-left: 50px !important;
+    margin: 57px;
+    font-size: 17px;
 }
 
-.formFields{
+.CheckBoxes {
+    transform: scale(1.7);
+    opacity: 0.9;
+    cursor: pointer;
+    margin:30px 0 !important;
+}
+
+.formFields {
     padding-top: 17px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
-.formFields *{
-    margin:20px 10px;
+
+.formFields * {
+    margin: 20px 10px;
 }
-.SaveButton{
+
+.SaveButton {
     background-color: #e76e8b;
-    font-size:17px;
+    font-size: 17px;
     border-radius: 6px;
     border: none;
     display: flex;
@@ -51,34 +60,38 @@ margin: 52px;
     justify-content: center;
     align-items: center;
     color: #eeeae2;
-    margin-top:60px;
-    width:120px;
+    margin-top: 60px;
+    width: 120px;
 }
-.SaveButton:hover{
-    color:#e76e8b;
+
+.SaveButton:hover {
+    color: #e76e8b;
     background-color: #2d2d2d;
-    transition:1s;
+    transition: 1s;
     cursor: pointer;
+    align-self: center;
 }
-.as+label{
+
+.as + label {
     display: block;
     position: relative;
     white-space: nowrap;
     padding: 0;
     margin: 0;
-    width: 70px;
+    width: 100%;
     border-top: 1px solid #e76e8b;
     -webkit-transition: width 0.4s ease;
     transition: width 0.4s ease;
-    height: 0px;
+    color: #111111;
 }
 
-.as:focus+label>span, .as:valid+label>span {
+.as:focus + label > span, .as:valid + label > span {
     top: -55px;
     font-size: 15px;
     color: #e76e8b;
 }
-.as+label > span{
+
+.as + label > span {
     font-weight: 300;
     margin: 0;
     position: absolute;
@@ -89,54 +102,71 @@ margin: 52px;
     -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
     transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
 }
- .as:focus+label{
-    width: 100%;
+
+.as:focus + label {
+    color:#e76e8b;
 }
-.as{
+
+.as {
     font-size: 20px;
     font-weight: 300;
     border-radius: 2px;
     margin: 0;
     border: none;
-width: 100%;
+    width: 100%;
     background: rgba(0, 0, 0, 0);
     overflow-x: hidden;
-    height:25px;
+    height: 25px;
+    color: rgba(255, 255, 255, 0.89);
 }
-.as:focus{
+
+.as:focus {
     outline: none;
 }
-.fildset{
+
+.fildset {
     outline: none;
     border: none;
-    width:200px;
+    width: 280px;
 }
-@media (max-width:580px){
-    .CategoriesMain{
-padding:40px 0 40px 0;
+
+@media (max-width: 580px) {
+    .CategoriesMain {
+        padding: 40px 0 40px 0;
     }
+
     .FormTitles * {
         margin: 52px 10px 52px 10px;
-        font-size:17px;
+        font-size: 17px;
     }
-    h1{
-        font-size:25px;
+
+    h1 {
+        font-size: 25px;
     }
-    .FormTitles{
-        display:none;
+
+    .FormTitles {
+        display: none;
+    }
+    .fildset{
+        width:250px;
     }
 }
-@media (max-width:290px){
-    .CategoriesMain{
-        padding:40px 0 40px 0;
-        width:200px;
+
+@media (max-width: 290px) {
+    .CategoriesMain {
+        padding: 40px 0 40px 0;
+        width: 200px;
     }
+
     .FormTitles * {
         margin: 52px 0 52px 0;
-        font-size:17px;
+        font-size: 17px;
     }
-    h1{
-        font-size:20px;
+    .fildset{
+        width:200px;
+    }
+    h1 {
+        font-size: 20px;
         width: 90%;
     }
 }
