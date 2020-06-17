@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Css from "./ChangeProduct.module.css";
-import {UpdateProductAPI} from "../../../Redux/ProductsReducer";
 
 let ChangeProduct = (props) => {
 
@@ -21,7 +20,11 @@ let ChangeProduct = (props) => {
                 </div>
                 <div>
                     <form onSubmit={props.handleSubmit}>
-                        <ChangeForm product={props.product} UpdateProduct={props.updateProduct}/>
+                        <ChangeForm product={props.product} UpdateProduct={props.updateProduct}
+                                    categories={props.categories} Name={props.Name} Description={props.Description}
+                                    Price={props.Price}
+                                    Color={props.Color} Wireless={props.Wireless} Backlight={props.Backlight}
+                                    Producer={props.Producer} Category={props.Category} id={props.id}/>
                     </form>
                 </div>
             </div>
@@ -33,14 +36,14 @@ class ChangeForm extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            Name: this.props.product.Name,
-            Description: this.props.product.Description,
-            Price: this.props.product.Price,
-            Color: this.props.product.Color,
-            Wireless: this.props.product.Wireless,
-            Backlight: this.props.product.Backlight,
-            Producer: this.props.product.Producer,
-            Category: this.props.product.Category,
+            Name: this.props.Name,
+            Description: this.props.Description,
+            Price: this.props.Price,
+            Color: this.props.Color,
+            Wireless: this.props.Wireless,
+            Backlight: this.props.Backlight,
+            Producer: this.props.Producer,
+            Category: this.props.Category,
         }
     }
 
@@ -56,7 +59,7 @@ class ChangeForm extends Component {
     }
 
     SaveChanges() {
-        this.props.UpdateProduct(this.props.product._id, this.state.Name, this.state.Description, this.state.Price, this.state.Color, this.state.Wireless,
+        this.props.UpdateProduct(this.props.id, this.state.Name, this.state.Description, this.state.Price, this.state.Color, this.state.Wireless,
             this.state.Backlight, this.state.Producer, this.state.Category);
     }
 
@@ -65,48 +68,52 @@ class ChangeForm extends Component {
             <form onSubmit={this.props.handleSubmit} className={Css.formFields}>
                 <fieldset className={Css.fildset}>
                     <input name={"Name"} onChange={(e) => this.Change(e.currentTarget)} autoFocus={true} id={"nme"}
-                           defaultValue={this.props.product.Name}
+                           defaultValue={this.props.Name}
                            className={Css.as} required/>
                     <label htmlFor="nme"><span>Name</span></label>
                 </fieldset>
                 <fieldset className={Css.fildset}>
                     <input name={"Description"} onChange={(e) => this.Change(e.currentTarget)}
-                           defaultValue={this.props.product.Description} id={"d"} className={Css.as}
+                           defaultValue={this.props.Description} id={"d"} className={Css.as}
                            required/>
                     <label htmlFor="d"><span>Description</span></label>
                 </fieldset>
                 <fieldset className={Css.fildset}>
                     <input name={"Price"} onChange={(e) => this.Change(e.currentTarget)}
-                           defaultValue={this.props.product.Price} id={"p"} className={Css.as} required/>
+                           defaultValue={this.props.Price} id={"p"} className={Css.as} required/>
                     <label htmlFor="p"><span>Price</span></label>
                 </fieldset>
                 <fieldset className={Css.fildset}>
                     <input name={"Color"} onChange={(e) => this.Change(e.currentTarget)}
-                           defaultValue={this.props.product.Color} id={"c"} className={Css.as} required/>
+                           defaultValue={this.props.Color} id={"c"} className={Css.as} required/>
                     <label htmlFor="c"><span>Color</span></label>
                 </fieldset>
 
                 <input type="checkbox" name={"Wireless"} onChange={(e) => this.Change(e.currentTarget)}
-                       checked={this.props.product.Wireless}
+                       checked={this.props.Wireless}
                        className={Css.CheckBoxes}/>
 
                 <input type="checkbox" name={"Backlight"} onChange={(e) => this.Change(e.currentTarget)}
-                       checked={this.props.product.Backlight}
+                       checked={this.props.Backlight}
                        className={Css.CheckBoxes}/>
 
                 <fieldset className={Css.fildset}>
                     <input name={"Producer"} onChange={(e) => this.Change(e.currentTarget)}
-                           defaultValue={this.props.product.Producer} id={"prod"} className={Css.as}
+                           defaultValue={this.props.Producer} id={"prod"} className={Css.as}
                            required/>
                     <label htmlFor="prod"><span>Producer</span></label>
                 </fieldset>
-                <fieldset className={Css.fildset}>
-                    <input name={"Category"} onChange={(e) => this.Change(e.currentTarget)}
-                           defaultValue={this.props.product.Category} id={"cat"} className={Css.as}
-                           required/>
-                    <label htmlFor="cat"><span>Category</span></label>
-                </fieldset>
 
+                <fieldset className={Css.fildset}>
+                    <select className={Css.selectField} name={"Category"} value={this.props.Category}
+                            onChange={(e) => this.Change(e.currentTarget)}>
+                        <option>Выберите категорию</option>
+                        {
+                            this.props.categories.map(m =>
+                                <option value={m._id} key={m._id}>{m.Name}</option>
+                            )}
+                    </select>
+                </fieldset>
                 <button className={Css.SaveButton} onClick={() => this.SaveChanges()}>Save changes</button>
             </form>
         )

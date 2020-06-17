@@ -13,18 +13,19 @@ const ChangeText = (props) => {
     };
     let deactivateEditMode = () => {
         setEditMode(false);
-        if (props.isDescription===true){
-            props.UpdateStatus(props.Name,props.id,status,props.Products);
-        }else
-        {props.UpdateStatus(status,props.id,props.Description,props.Products);}
+        if (props.isDescription === true) {
+            props.UpdateStatus(props.Name, props.id, status, props.Products);
+        } else {
+            props.UpdateStatus(status, props.id, props.Description, props.Products);
+        }
     };
     const onStatusChange = (e) => {
         setStatus(e.currentTarget.value);
     };
-    const enterDeactivate=(e)=>{
-            if (e.charCode === 13) {
-                deactivateEditMode();
-                }
+    const enterDeactivate = (e) => {
+        if (e.charCode === 13) {
+            deactivateEditMode();
+        }
     };
     return (
         <div>
@@ -32,7 +33,9 @@ const ChangeText = (props) => {
                 ? <div><input onChange={onStatusChange} autoFocus={true}
                               onBlur={deactivateEditMode} onKeyPress={enterDeactivate} value={status}/></div>
                 :
-                <div><span onDoubleClick={activateEditMode} style={{color:"white",fontSize:props.fontSize, fontWeight:"bold"}}>{status || "-"}</span></div>
+                <div><span onDoubleClick={activateEditMode}
+                           style={{color: "white", fontSize: props.fontSize, fontWeight: "bold"}}>{status || "-"}</span>
+                </div>
             }
         </div>
     )

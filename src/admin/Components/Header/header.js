@@ -3,8 +3,6 @@ import headerCss from "./header.module.css"
 import phoneIcon from "../../images/icons8-телефон-24.png"
 import UserIcon from "../../images/icons8-пользователь-без-половых-признаков-64.png"
 import basketIcon from "../../images/icons8-корзина-48.png"
-import subMenu from "../../images/icons8-меню-50.png"
-import rfe from "../../images/keyboard2.jpg";
 
 let Header = () => {
     return (

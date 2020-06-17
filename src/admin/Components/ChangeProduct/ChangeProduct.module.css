@@ -34,7 +34,7 @@
     transform: scale(1.7);
     opacity: 0.9;
     cursor: pointer;
-    margin:30px 0 !important;
+    margin: 30px 0 !important;
 }
 
 .formFields {
@@ -104,7 +104,7 @@
 }
 
 .as:focus + label {
-    color:#e76e8b;
+    color: #e76e8b;
 }
 
 .as {
@@ -128,6 +128,29 @@
     outline: none;
     border: none;
     width: 280px;
+
+}
+
+.selectField {
+    height: 38px;
+    width: 280px;
+    margin-top: 0;
+    border: 1px solid #e76e8b;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.selectField:focus {
+    border: 1px solid #e76e8b;
+    outline: none;
+}
+
+option {
+    background-color: #202020;
+    font-size: 18px;
 }
 
 @media (max-width: 580px) {
@@ -147,8 +170,9 @@
     .FormTitles {
         display: none;
     }
-    .fildset{
-        width:250px;
+
+    .fildset {
+        width: 250px;
     }
 }
 
@@ -162,9 +186,11 @@
         margin: 52px 0 52px 0;
         font-size: 17px;
     }
-    .fildset{
-        width:200px;
+
+    .fildset {
+        width: 200px;
     }
+
     h1 {
         font-size: 20px;
         width: 90%;

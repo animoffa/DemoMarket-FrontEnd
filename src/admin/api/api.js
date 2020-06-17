@@ -1,9 +1,5 @@
 import * as axios from "axios";
 
-const instance = axios.create({
-    withCredentials: true,
-    baseURL: 'http://localhost:3000/',
-});
 export const categoriesAPI = {
     getCategories() {
         return axios.get("http://localhost:3000/Categories").then((response) => {
@@ -25,12 +21,16 @@ export const categoriesAPI = {
         return axios.delete(`http://localhost:3000/Categories/${id}`).then(response => {
             return response;
         })
+    },
+    addCategory(){
+        return axios.post(`http://localhost:3000/Categories/add`,{Name:"Введите название"}).then(response => {
+            return response;
+        })
     }
-
 };
 export const productsAPI = {
-    getProducts() {
-        return axios.get("http://localhost:3000/Products").then((response) => {
+    getProducts(currentPage,pageSize) {
+        return axios.get(`http://localhost:3000/Products?pageNo=${currentPage}&size=${pageSize}`).then((response) => {
             return response;
         })
     },
@@ -50,6 +50,11 @@ export const productsAPI = {
     },
     deleteProduct(id){
         return axios.delete(`http://localhost:3000/Products/${id}`).then(response => {
+            return response;
+        })
+    },
+    addProduct(){
+        return axios.post(`http://localhost:3000/Products/add`,{Name:"Введите название"}).then(response => {
             return response;
         })
     }

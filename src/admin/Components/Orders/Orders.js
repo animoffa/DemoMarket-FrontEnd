@@ -1,6 +1,6 @@
 import React from 'react';
 import categoriesCss from "../CategoriesAdmin/Categories.module.css";
-import Category from "../list/Category";
+import List from "../list/List";
 
 let Orders = (props) => {
 
@@ -8,10 +8,12 @@ let Orders = (props) => {
         <h1 className={categoriesCss.title}>Заказы</h1>
         <div>
             <div className={categoriesCss.Categories}>
-                <Category categoryName={"ID Заказа"} Productscount={"ID Пользователя"} ProductsOfOrder={"ID Продукта"} StausOfOrder={"Статус"}/>
+                <List categoryName={"ID Заказа"} Productscount={"ID Пользователя"} ProductsOfOrder={"ID Продукта"}
+                      StausOfOrder={"Статус"}/>
                 {
-                    props.orders.map(p=>
-                        <Category productName={p._id} Productscount={p.UserID} ProductsOfOrder={p.ProductsID}  StausOfOrder={p.Status} />
+                    props.orders.map(p =>
+                        <List productName={p._id} key={p._id} Productscount={p.UserID} ProductsOfOrder={p.ProductsID}
+                              StausOfOrder={p.Status}/>
                     )
                 }
             </div>

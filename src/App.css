@@ -1,6 +1,8 @@
+html{
+  background-color:#202020;
+}
 .App {
   text-align: center;
-  background-color: #202020;
   height:100vh;
 }
 

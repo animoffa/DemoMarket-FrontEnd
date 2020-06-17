@@ -2,41 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b220a05-9440-492d-9021-77fc116565f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/admin/Components/CategoriesAdmin/Categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/Components/Products/Products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/admin/Components/list/Category.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CategoriesAdmin/Categories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CategoriesAdmin/Categories.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/CategoriesAdmin/Categories.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ChangeCategory/ChangeCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/ChangeCategory/ChangeCategory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ChangeProduct/ChangeProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/ChangeProduct/ChangeProduct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ChangeProduct/ChangeProduct.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/ChangeProduct/ChangeProduct.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Header/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Products/Products.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Products/Products.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Products/Products.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/SidebarItem/sidebarItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Sidebar/SidebarItem/sidebarItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/SidebarItem/sidebarItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Sidebar/SidebarItem/sidebarItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Sidebar/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Sidebar/sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/list/Category.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/list/Category.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/list/Category.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/logoPic/logoPic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/logoPic/logoPic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/logoPic/logoPic.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/logoPic/logoPic.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-клавиатура-64.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-клавиатура-64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-корзина-48.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-корзина-48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-меню-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-меню-50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-поиск-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-поиск-50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-пользователь-без-половых-признаков-64.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-пользователь-без-половых-признаков-64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-редактировать-26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-редактировать-26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-телефон-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-телефон-24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-удалить-26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/icons8-удалить-26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/keyboard2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/images/keyboard2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/AdminReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/CategoriesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/CategoriesReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/OrdersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/OrdersReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/ProductsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/ProductsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/UsersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/UsersReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/CategoriesAdmin/Categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/CategoriesAdmin/Categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/CategoriesAdmin/Categories.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/CategoriesAdmin/Categories.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/CategoriesAdmin/CategoriesContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/CategoriesAdmin/CategoriesContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/ChangeCategory/ChangeCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/ChangeCategory/ChangeCategory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/ChangeCategory/ChangeCategoryContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/ChangeCategory/ChangeCategoryContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/ChangeCategory/ChangeText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/ChangeCategory/ChangeText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/ChangeProduct/ChangeProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/ChangeProduct/ChangeProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/ChangeProduct/ChangeProduct.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/ChangeProduct/ChangeProduct.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/ChangeProduct/ChangeProductContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/ChangeProduct/ChangeProductContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Header/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/Orders/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Orders/Orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/Orders/OrdersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Orders/OrdersContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Products/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/Products/Products.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/Products/ProductsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Products/ProductsContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/Sidebar/SidebarItem/sidebarItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Sidebar/SidebarItem/sidebarItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/Sidebar/sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Sidebar/sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/Users/UsersContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/list/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/list/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/list/Category.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/list/List.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/logoPic/logoPic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/logoPic/logoPic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/Components/logoPic/logoPic.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/Components/logoPic/logoPic.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../removeitlater" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/client" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,14 +72,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="ts.external.directory.path" value="C:\Users\animo\OneDrive\Рабочий стол\React\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\holy-key\src\client" />
+      <recent name="C:\holy-key\src\admin\Components" />
+      <recent name="C:\holy-key\src\admin\Components\Pagination" />
       <recent name="C:\holy-key\src\admin" />
       <recent name="C:\holy-key\src\Components" />
-      <recent name="C:\holy-key\src\Components\Sidebar\SidebarItem" />
-      <recent name="C:\holy-key\src\Components\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\holy-key\src\client" />
+      <recent name="C:\holy-key\src\admin\Components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -140,7 +147,20 @@
       <workItem from="1591115637451" duration="3480000" />
       <workItem from="1591268107731" duration="5310000" />
       <workItem from="1591285206326" duration="9312000" />
-      <workItem from="1591359564041" duration="8559000" />
+      <workItem from="1591359564041" duration="8889000" />
+      <workItem from="1591533780706" duration="17000" />
+      <workItem from="1591548237526" duration="3449000" />
+      <workItem from="1591600807447" duration="615000" />
+      <workItem from="1591642528230" duration="346000" />
+      <workItem from="1591642889650" duration="608000" />
+      <workItem from="1591692440949" duration="9224000" />
+      <workItem from="1591796833582" duration="4336000" />
+      <workItem from="1591866206070" duration="3578000" />
+      <workItem from="1592228414106" duration="66000" />
+      <workItem from="1592228494985" duration="1030000" />
+      <workItem from="1592242877761" duration="12773000" />
+      <workItem from="1592395037293" duration="1305000" />
+      <workItem from="1592396397297" duration="7449000" />
     </task>
     <servers />
   </component>
@@ -159,5 +179,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="dart-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

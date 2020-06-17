@@ -3,6 +3,7 @@ import {getCategoryByID, getCategoriesByIDAPI, updateCategoryById} from "../../.
 import {getProductsAPI} from "../../../Redux/ProductsReducer"
 import {connect} from "react-redux";
 import ChangeCategory from "./ChangeCategory";
+import Preloader from "../Preloader/Preloader";
 
 class ChangeCategoriesContainer extends React.Component {
     componentDidMount() {
@@ -13,19 +14,21 @@ class ChangeCategoriesContainer extends React.Component {
 
 
     render() {
-        if (!this.props.category||!this.props.products) {
-            return 123
+        if (!this.props.category) {
+            return <Preloader/>
         }
         return (
-            <ChangeCategory category={this.props.category} updateCategory={this.props.updateCategoryById} products={this.props.products}/>
+            <ChangeCategory category={this.props.category} updateCategory={this.props.updateCategoryById}
+                            products={this.props.products}/>
         )
 
     }
-};
+}
+
 let mapStateToProps = (state) => {
     return {
         category: state.Categories.category,
-        products:state.Products.products,
+        products: state.Products.products,
     }
 };
 

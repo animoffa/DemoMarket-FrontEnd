@@ -1,9 +1,9 @@
 import {ordersAPI} from "../admin/api/api";
-const GET_ORDERS = 'GET_ORDERS';
 
+const GET_ORDERS = 'admin/orders/GET_ORDERS';
 
 let inicialState = {
-    orders:[]
+    orders: []
 };
 
 const OrdersReducer = (state = inicialState, action) => {
@@ -11,19 +11,18 @@ const OrdersReducer = (state = inicialState, action) => {
         case GET_ORDERS:
             return {
                 ...state,
-                orders:action.orders
+                orders: action.orders
             };
         default:
             return state;
     }
 };
 
-export const getOrders = (orders) => ({type: GET_ORDERS,orders});
+export const getOrders = (orders) => ({type: GET_ORDERS, orders});
 
-export const getOrdersAPI = () => (dispatch) => {
-    ordersAPI.getOrders().then(response => {
-        dispatch(getOrders(response.data));
-    })
+export const getOrdersAPI = () => async (dispatch) => {
+    let response = await ordersAPI.getOrders();
+    dispatch(getOrders(response.data));
 };
 
 export default OrdersReducer;
