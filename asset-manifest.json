@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DemoMarket-FrontEnd/static/css/main.b92d4541.chunk.css",
-    "main.js": "/DemoMarket-FrontEnd/static/js/main.d84bc09c.chunk.js",
-    "main.js.map": "/DemoMarket-FrontEnd/static/js/main.d84bc09c.chunk.js.map",
+    "main.js": "/DemoMarket-FrontEnd/static/js/main.bb5c0e64.chunk.js",
+    "main.js.map": "/DemoMarket-FrontEnd/static/js/main.bb5c0e64.chunk.js.map",
     "runtime-main.js": "/DemoMarket-FrontEnd/static/js/runtime-main.6613b259.js",
     "runtime-main.js.map": "/DemoMarket-FrontEnd/static/js/runtime-main.6613b259.js.map",
     "static/js/2.cdc3b7b6.chunk.js": "/DemoMarket-FrontEnd/static/js/2.cdc3b7b6.chunk.js",
     "static/js/2.cdc3b7b6.chunk.js.map": "/DemoMarket-FrontEnd/static/js/2.cdc3b7b6.chunk.js.map",
     "index.html": "/DemoMarket-FrontEnd/index.html",
-    "precache-manifest.ece600667dec4954c3e89a891fdcbdbe.js": "/DemoMarket-FrontEnd/precache-manifest.ece600667dec4954c3e89a891fdcbdbe.js",
+    "precache-manifest.5d989c25cf15e3db26648fad97dc4158.js": "/DemoMarket-FrontEnd/precache-manifest.5d989c25cf15e3db26648fad97dc4158.js",
     "service-worker.js": "/DemoMarket-FrontEnd/service-worker.js",
     "static/css/main.b92d4541.chunk.css.map": "/DemoMarket-FrontEnd/static/css/main.b92d4541.chunk.css.map",
     "static/js/2.cdc3b7b6.chunk.js.LICENSE.txt": "/DemoMarket-FrontEnd/static/js/2.cdc3b7b6.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.6613b259.js",
     "static/js/2.cdc3b7b6.chunk.js",
     "static/css/main.b92d4541.chunk.css",
-    "static/js/main.d84bc09c.chunk.js"
+    "static/js/main.bb5c0e64.chunk.js"
   ]
 }
