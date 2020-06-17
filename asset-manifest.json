@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/DemoMarket-FrontEnd/static/css/main.ff01f4ad.chunk.css",
+    "main.js": "/DemoMarket-FrontEnd/static/js/main.c37551f1.chunk.js",
+    "main.js.map": "/DemoMarket-FrontEnd/static/js/main.c37551f1.chunk.js.map",
+    "runtime-main.js": "/DemoMarket-FrontEnd/static/js/runtime-main.6613b259.js",
+    "runtime-main.js.map": "/DemoMarket-FrontEnd/static/js/runtime-main.6613b259.js.map",
+    "static/js/2.cdc3b7b6.chunk.js": "/DemoMarket-FrontEnd/static/js/2.cdc3b7b6.chunk.js",
+    "static/js/2.cdc3b7b6.chunk.js.map": "/DemoMarket-FrontEnd/static/js/2.cdc3b7b6.chunk.js.map",
+    "index.html": "/DemoMarket-FrontEnd/index.html",
+    "precache-manifest.cbb05e71aafae7ad92042f11c959e036.js": "/DemoMarket-FrontEnd/precache-manifest.cbb05e71aafae7ad92042f11c959e036.js",
+    "service-worker.js": "/DemoMarket-FrontEnd/service-worker.js",
+    "static/css/main.ff01f4ad.chunk.css.map": "/DemoMarket-FrontEnd/static/css/main.ff01f4ad.chunk.css.map",
+    "static/js/2.cdc3b7b6.chunk.js.LICENSE.txt": "/DemoMarket-FrontEnd/static/js/2.cdc3b7b6.chunk.js.LICENSE.txt",
+    "static/media/icons8-меню-50.png": "/DemoMarket-FrontEnd/static/media/icons8-меню-50.7151f7bb.png",
+    "static/media/loading-37.gif": "/DemoMarket-FrontEnd/static/media/loading-37.3e803924.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6613b259.js",
+    "static/js/2.cdc3b7b6.chunk.js",
+    "static/css/main.ff01f4ad.chunk.css",
+    "static/js/main.c37551f1.chunk.js"
+  ]
+}
