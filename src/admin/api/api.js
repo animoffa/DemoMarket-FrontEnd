@@ -2,77 +2,58 @@ import * as axios from "axios";
 
 export const categoriesAPI = {
     getCategories() {
-        return axios.get("http://localhost:3000/Categories").then((response) => {
-            return response;
-        })
+        return axios.get("http://localhost:3000/Categories")
     },
     getCategoryById(id) {
         return axios.get(`http://localhost:3000/Categories/${id}`);
     },
-    updateCategoryById(Name, id, Description, Products) {
+    updateCategoryById(name, id, description, products) {
         return axios.put(`http://localhost:3000/Categories/update`, {
-            Name: Name,
+            name: name,
             id: id,
-            Description: Description,
-            Products: Products
+            description: description,
+            products: products
         });
     },
     deleteCategory(id){
-        return axios.delete(`http://localhost:3000/Categories/${id}`).then(response => {
-            return response;
-        })
+        return axios.delete(`http://localhost:3000/Categories/${id}`)
     },
     addCategory(){
-        return axios.post(`http://localhost:3000/Categories/add`,{Name:"Введите название"}).then(response => {
-            return response;
-        })
+        return axios.post(`http://localhost:3000/Categories/add`,{name:"Введите название"})
+
     }
 };
 export const productsAPI = {
     getProducts(currentPage,pageSize) {
-        return axios.get(`http://localhost:3000/Products?pageNo=${currentPage}&size=${pageSize}`).then((response) => {
-            return response;
-        })
+        return axios.get(`http://localhost:3000/Products?pageNo=${currentPage}&size=${pageSize}`)
     },
     getProductById(id) {
-        return axios.get(`http://localhost:3000/Products/${id}`).then((response) => {
-            return response;
-        })
+        return axios.get(`http://localhost:3000/Products/${id}`)
     },
-    updateProductById(id, Name, Description, Price, Color, Wireless, Backlight, Producer, Category) {
+    updateProductById(id, name, description, price, color, wireless, backlight, producer, category) {
         return axios.put(`http://localhost:3000/Products/update`, {
-            id: id, Name: Name, Description: Description, Price: Price,
-            Color: Color, Wireless: Wireless, Backlight: Backlight,
-            Producer: Producer, Category: Category
+            id: id, name: name, description: description, price: price,
+            color: color, wireless: wireless, backlight: backlight,
+            producer: producer, category: category
         }).then(response => {
             return response;
         })
     },
     deleteProduct(id){
-        return axios.delete(`http://localhost:3000/Products/${id}`).then(response => {
-            return response;
-        })
+        return axios.delete(`http://localhost:3000/Products/${id}`)
     },
     addProduct(){
-        return axios.post(`http://localhost:3000/Products/add`,{Name:"Введите название"}).then(response => {
-            return response;
-        })
+        return axios.post(`http://localhost:3000/Products/add`,{name:"Введите название"})
     }
 };
 export const usersAPI = {
     getUsers() {
-        return axios.get("http://localhost:3000/Users").then((response) => {
-            return response;
-        })
+        return axios.get("http://localhost:3000/Users")
     }
 };
 
 export const ordersAPI = {
-
     getOrders() {
-        return axios.get("http://localhost:3000/Orders").then((response) => {
-            debugger
-            return response;
-        })
+        return axios.get("http://localhost:3000/Orders")
     }
 };
